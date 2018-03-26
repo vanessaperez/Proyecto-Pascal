@@ -328,23 +328,6 @@ begin
 	writeln('  *****   **  **  ** * **  ****    *****');
 	writeln('  **  **  ******  **  ***  **      **  **');
 	writeln('  **  **  ******  **   **  ******  **  **');
-	gotoxy(45,1);
-	writeln('          #######');
-	gotoxy(45,2);
-	writeln('        ##------###');
-	gotoxy(45,3);
-	writeln('      ##*----------#');
-	gotoxy(45,4);
-	writeln('     $$$$$$$$$$*---##');
-	gotoxy(45,5);
-	writeln('    $""""""""""$****##');
-	writeln('');
-	writeln('');
-	writeln('');
-	writeln('');
-	writeln('');
-	writeln('');
-	writeln('');
 	writeln('');
 
 	textcolor(lightblue);
@@ -466,11 +449,6 @@ begin
 	cursoron();
 
 	normvideo;		// colores por defecto de la consola
-// 	xy_jugador.posx:=1;
-// 	xy_jugador.posy:=1;
-// 	xy_salida.posx:=2;
-// 	xy_salida.posy:=2;
-// 	writeln(xy_jugador=xy_salida);
 end;
 
 // Ejecutar
